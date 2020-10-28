@@ -5,11 +5,12 @@
     <link>http://blog.rovango.com/</link>
     <description>Recent content on Hello, I&#39;m Rovango</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://blog.rovango.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2020 11:30:18 +0800</lastBuildDate><atom:link href="http://blog.rovango.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>First Post For Test</title>
       <link>http://blog.rovango.com/posts/first-post-for-test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Oct 2020 11:30:18 +0800</pubDate>
       
       <guid>http://blog.rovango.com/posts/first-post-for-test/</guid>
       <description>Text can be bold, italic, or strikethrough.

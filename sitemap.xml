@@ -4,18 +4,21 @@
   
   <url>
     <loc>http://blog.rovango.com/posts/first-post-for-test/</loc>
-  </url>
-  
-  <url>
-    <loc>http://blog.rovango.com/categories/</loc>
+    <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://blog.rovango.com/</loc>
+    <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://blog.rovango.com/posts/</loc>
+    <lastmod>2020-10-28T11:30:18+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.rovango.com/categories/</loc>
   </url>
   
   <url>
