@@ -5,16 +5,19 @@
     <link>http://blog.rovango.com/posts/</link>
     <description>Recent content in Posts on Hello, I&#39;m Rovango</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2020 11:30:18 +0800</lastBuildDate><atom:link href="http://blog.rovango.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://blog.rovango.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post For Test</title>
+      <title></title>
       <link>http://blog.rovango.com/posts/first-post-for-test/</link>
-      <pubDate>Wed, 28 Oct 2020 11:30:18 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://blog.rovango.com/posts/first-post-for-test/</guid>
-      <description>纯函数  函数的指定过程完全由输入参数决定，不会受除参数之外的任何数据影响 函数不会修改任何外部状态，比如修改全局变量或传入的参数对象  可能造成函数不纯的原因？  改变全局变量的值 改变输入参数引用的对象 读取用户输入，比如调用了alert或者confirm函数 抛出一个异常 网络输入、输出操作，比如通过AJAX调用一个服务器的API 操作浏览器的DOM  Hot Observable &amp;amp; Cold Observable  Hot Observable：新的订阅者看不到之前已产生的数据，也就是说发布者一直在生产数据。 Cold Observable：新的订阅者可以看到之前已产生的数据，也就是说发布者在每一个订阅者到来时，都会重新生成一个数据生产者（其实也是发布者），是的订阅者可以看到所有数据。  操作符函数实现 每个操作符都是一个函数，撇开具体业务功能，每个操作符必须考虑下面这些功能要点：
- 返回一个全新的Observable对象； 对上游和下游的订阅及退订处理； 处理异常情况； 及时释放资源；  </description>
+      <description>Text can be bold, italic, or strikethrough.
+Link to another page.
+There should be whitespace between paragraphs.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Header 1 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Header 2  This is a blockquote following a header.</description>
     </item>
     
   </channel>
