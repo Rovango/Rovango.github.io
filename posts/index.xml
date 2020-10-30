@@ -5,7 +5,7 @@
     <link>http://blog.rovango.com/posts/</link>
     <description>Recent content in Posts on 十有八九不离十</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 28 Oct 2020 11:30:18 +0800</lastBuildDate><atom:link href="http://blog.rovango.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post For Test</title>
@@ -13,12 +13,10 @@
       <pubDate>Wed, 28 Oct 2020 11:30:18 +0800</pubDate>
       
       <guid>http://blog.rovango.com/posts/first-post-for-test/</guid>
-      <description>Text can be bold, italic, or strikethrough.
-Link to another page.
-There should be whitespace between paragraphs.
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-Header 1 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-Header 2  This is a blockquote following a header.</description>
+      <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.rovango.com/&#34;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt;
+&lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt;</description>
     </item>
     
   </channel>

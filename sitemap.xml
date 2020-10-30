@@ -13,16 +13,13 @@
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/</loc>
+    <loc>http://blog.rovango.com/tags/test/</loc>
     <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://blog.rovango.com/tags/</loc>
+    <loc>http://blog.rovango.com/</loc>
+    <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
 </urlset>
