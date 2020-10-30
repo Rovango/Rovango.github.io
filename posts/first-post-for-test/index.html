@@ -261,6 +261,29 @@ end
 </div>
 
 
+<div class="post-comment" data-comment="disqus">
+    <span class="post-comment-notloaded">
+        <i class="iconfont icon-chatbox-ellipses-sharp"></i>&nbsp;Load comments
+    </span>
+    <div id="disqus_thread" style="display: none;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js"></script>
+    <script>
+        function loadComment() {
+            document.querySelector('#disqus_thread').removeAttribute('style');
+            var dsqjs = new DisqusJS({
+                shortname: 'blog-rovango-com',
+                siteName: '十有八九不离十',
+                identifier: 'first-post-for-test',
+                url: 'http:\/\/blog.rovango.com\/posts\/first-post-for-test\/',
+                title: 'First Post For Test',
+                api: 'http:\/\/blog.rovango.com\/',
+                apikey: 'UldkcbX5DnWidbvKsKLe0RyNXjDdui55kN92hPUENe4UTA8b94THoQJRy17Ajqfb'
+            });
+            document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
+        }
+    </script>
+</div>
+
 
             </div>
             <aside class="col-12 col-md-3 float-left sidebar">
