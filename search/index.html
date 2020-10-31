@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-hans">
 
 <head>
     
@@ -18,7 +18,7 @@
 <title>Search - 十有八九不离十</title>
 
 
-<meta name="author" content="Rovango" />
+<meta name="author" content="Rovango &amp; Krystal" />
 
 
 
@@ -50,13 +50,27 @@
 
 <link rel="stylesheet" href="//blog.rovango.com/assets/css/fuji.min.css" />
 
+<script async data-ad-client="ca-pub-9007187876755627" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 
 
 
 <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-369GS1ZYG5');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-369GS1ZYG5"></script>
+
+
+<script>
     window.ga_tid = 'G-369GS1ZYG5';
-    window.ga_api = '';
+    window.ga_api = 'https:\/\/delicate-dawn-ab97.zrf9018.workers.dev';
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/cfga@1.0.3/cfga.min.js"></script>
 
@@ -80,9 +94,14 @@
     <header>
     <div class="container-lg clearfix">
         <div class="col-12 header">
-            <a class="title-main" href="//blog.rovango.com/">十有八九不离十</a>
+            <div class="title-main">
+              <a href="//blog.rovango.com/">十有八九不离十</a>
+            </div>
             
-            <span class="title-sub">Rovango&#39;s blog</span>
+            
+            <p class="title-license">
+                本站所有内容采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 进行许可。转载或引用时请注明出处，不得用于商业用途！
+            </p>
             
         </div>
     </div>
@@ -104,9 +123,9 @@
     </form>
 </div>
 
-<div class="search-result-info" style="display: none;"><span>[NUM] results ([TIME] ms)</span></div>
-<div class="search-result-info" style="display: none;"><span>Results not found</span></div>
-<div class="search-result-info" style="display: none;"><span>Failed to load index file</span></div>
+<div class="search-result-info" style="display: none;"><span>找到 [NUM] 条结果 (用时 [TIME] 毫秒)</span></div>
+<div class="search-result-info" style="display: none;"><span>未找到结果</span></div>
+<div class="search-result-info" style="display: none;"><span>无法获取索引</span></div>
 <div id="search-result"></div>
 <script id="search-result-template" type="text/fuse-template">
     <% for(var i = 0; i < $data.length; i++){ %>
@@ -117,7 +136,7 @@
         <div class="post-item post-meta-archive">
             <span><i class="iconfont icon-today-sharp"></i>&nbsp;<%= $data[i].item.date %></span>
             <span>
-                <i class="iconfont icon-pricetags-sharp"></i>&nbsp;<% if ($data[i].item.tags && $data[i].item.tags.length > 0) { %><% for(var j = 0; j < $data[i].item.tags.length; j++){ %><%= $data[i].item.tags[j] %>&nbsp;<% } %><% } else { %>No tag<% } %>
+                <i class="iconfont icon-pricetags-sharp"></i>&nbsp;<% if ($data[i].item.tags && $data[i].item.tags.length > 0) { %><% for(var j = 0; j < $data[i].item.tags.length; j++){ %><%= $data[i].item.tags[j] %>&nbsp;<% } %><% } else { %>无标签<% } %>
             </span>
         </div>
     </div>
@@ -128,7 +147,7 @@
             <aside class="col-12 col-md-3 float-left sidebar">
     
     <div class="sidebar-item sidebar-pages">
-        <h3>Pages</h3>
+        <h3>页面</h3>
         <ul>
             
             <li>
@@ -151,7 +170,7 @@
     </div>
     
     <div class="sidebar-item sidebar-links">
-        <h3>Links</h3>
+        <h3>链接</h3>
         <ul>
             
             <li>
@@ -170,8 +189,12 @@
     </div>
     
     <div class="sidebar-item sidebar-tags">
-        <h3>Tags</h3>
+        <h3>标签</h3>
         <div>
+            
+            <span>
+                <a href="/tags/lian/">lian</a>
+            </span>
             
             <span>
                 <a href="/tags/test/">test</a>
@@ -200,7 +223,7 @@
   <div class="sidebar-wrapper">
     
     <div class="sidebar-item sidebar-pages">
-        <h3>Pages</h3>
+        <h3>页面</h3>
         <ul>
             
             <li>
@@ -223,7 +246,7 @@
     </div>
     
     <div class="sidebar-item sidebar-links">
-        <h3>Links</h3>
+        <h3>链接</h3>
         <ul>
             
             <li>
@@ -242,8 +265,12 @@
     </div>
     
     <div class="sidebar-item sidebar-tags">
-        <h3>Tags</h3>
+        <h3>标签</h3>
         <div>
+            
+            <span>
+                <a href="/tags/lian/">lian</a>
+            </span>
             
             <span>
                 <a href="/tags/test/">test</a>
@@ -261,12 +288,16 @@
     <div class="container-lg clearfix">
         <div class="col-12 footer">
             
+            <p>
+                本站所有内容采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 进行许可。转载或引用时请注明出处，不得用于商业用途！
+            </p>
+            
             <span>&copy; 2009-2020
-                <a href="//blog.rovango.com/">Rovango</a>
+                <a href="//blog.rovango.com/">Rovango &amp; Krystal</a>
                  | <a href="https://github.com/rovango/rovango.github.io">Source code</a> 
-                | Powered by <a href="https://github.com/amzrk2/hugo-theme-fuji/"
+                | 基于 <a href="https://github.com/amzrk2/hugo-theme-fuji/"
                    target="_blank">Fuji-v2</a> &amp; <a href="https://gohugo.io/"
-                                                    target="_blank">Hugo</a> 
+                                                    target="_blank">Hugo</a> 构建
             </span>
         </div>
     </div>
