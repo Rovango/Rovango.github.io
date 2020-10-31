@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>test on 十有八九不离十</title>
-    <link>http://blog.rovango.com/tags/test/</link>
+    <link>//blog.rovango.com/tags/test/</link>
     <description>Recent content in test on 十有八九不离十</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2020 11:30:18 +0800</lastBuildDate><atom:link href="http://blog.rovango.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 11:30:18 +0800</lastBuildDate><atom:link href="//blog.rovango.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post For Test</title>
-      <link>http://blog.rovango.com/posts/first-post-for-test/</link>
+      <link>//blog.rovango.com/posts/first-post-for-test/</link>
       <pubDate>Wed, 28 Oct 2020 11:30:18 +0800</pubDate>
       
-      <guid>http://blog.rovango.com/posts/first-post-for-test/</guid>
+      <guid>//blog.rovango.com/posts/first-post-for-test/</guid>
       <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://blog.rovango.com/&#34;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//blog.rovango.com/&#34;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt;
 &lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt;</description>
     </item>

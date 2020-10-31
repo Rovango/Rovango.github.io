@@ -3,36 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.rovango.com/posts/first-post-for-test/</loc>
+    <loc>//blog.rovango.com/posts/first-post-for-test/</loc>
     <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/posts/</loc>
+    <loc>//blog.rovango.com/posts/</loc>
     <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/tags/test/</loc>
+    <loc>//blog.rovango.com/tags/test/</loc>
     <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/</loc>
+    <loc>//blog.rovango.com/</loc>
     <lastmod>2020-10-28T11:30:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/about/</loc>
+    <loc>//blog.rovango.com/about/</loc>
     <lastmod>2020-04-11T19:15:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/archives/</loc>
+    <loc>//blog.rovango.com/archives/</loc>
   </url>
   
   <url>
-    <loc>http://blog.rovango.com/search/</loc>
+    <loc>//blog.rovango.com/search/</loc>
   </url>
   
 </urlset>
