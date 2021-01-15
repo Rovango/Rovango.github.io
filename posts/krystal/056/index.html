@@ -249,15 +249,18 @@ Z先生说，你的公众号已经一个季度没更新了
     <script>
         function loadComment() {
             document.querySelector('#disqus_thread').removeAttribute('style');
-            var dsqjs = new DisqusJS({
+            var config = {
                 shortname: 'blog-rovango-com',
                 siteName: '十有八九不离十',
                 identifier: '056',
-                url: '\/\/blog.rovango.com\/posts\/krystal\/056\/',
+                
+                url: 'https://blog.rovango.com' + location.pathname,
                 title: '不定期更新的小日常（四）',
-                api: 'https:\/\/blog.rovango.com\/',
+                api: 'https:\/\/disqus.skk.moe\/disqus\/',
                 apikey: 'UldkcbX5DnWidbvKsKLe0RyNXjDdui55kN92hPUENe4UTA8b94THoQJRy17Ajqfb'
-            });
+            };
+            console.log(config);
+            var dsqjs = new DisqusJS(config);
             document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
         }
     </script>

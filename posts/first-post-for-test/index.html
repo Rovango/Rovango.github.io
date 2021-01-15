@@ -301,15 +301,18 @@ end
     <script>
         function loadComment() {
             document.querySelector('#disqus_thread').removeAttribute('style');
-            var dsqjs = new DisqusJS({
+            var config = {
                 shortname: 'blog-rovango-com',
                 siteName: '十有八九不离十',
                 identifier: 'first-post-for-test',
-                url: '\/\/blog.rovango.com\/posts\/first-post-for-test\/',
+                
+                url: 'https://blog.rovango.com' + location.pathname,
                 title: 'First Post For Test',
-                api: 'https:\/\/blog.rovango.com\/',
+                api: 'https:\/\/disqus.skk.moe\/disqus\/',
                 apikey: 'UldkcbX5DnWidbvKsKLe0RyNXjDdui55kN92hPUENe4UTA8b94THoQJRy17Ajqfb'
-            });
+            };
+            console.log(config);
+            var dsqjs = new DisqusJS(config);
             document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
         }
     </script>

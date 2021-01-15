@@ -214,15 +214,18 @@ Z先生是典型的直男购物代表。
     <script>
         function loadComment() {
             document.querySelector('#disqus_thread').removeAttribute('style');
-            var dsqjs = new DisqusJS({
+            var config = {
                 shortname: 'blog-rovango-com',
                 siteName: '十有八九不离十',
                 identifier: '014',
-                url: '\/\/blog.rovango.com\/posts\/krystal\/014\/',
+                
+                url: 'https://blog.rovango.com' + location.pathname,
                 title: '男人和女人的购物欲怎么就差这么多呢',
-                api: 'https:\/\/blog.rovango.com\/',
+                api: 'https:\/\/disqus.skk.moe\/disqus\/',
                 apikey: 'UldkcbX5DnWidbvKsKLe0RyNXjDdui55kN92hPUENe4UTA8b94THoQJRy17Ajqfb'
-            });
+            };
+            console.log(config);
+            var dsqjs = new DisqusJS(config);
             document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
         }
     </script>
