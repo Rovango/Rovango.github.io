@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<meta name="generator" content="Hugo 0.76.5" />
+<meta name="generator" content="Hugo 0.77.0" />
 
 
 
@@ -229,6 +229,7 @@
         <i class="iconfont icon-chatbox-ellipses-sharp"></i>&nbsp;查看评论
     </span>
     <div id="disqus_thread" style="display: none;"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css">
     <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js"></script>
     <script>
         function loadComment() {
@@ -243,7 +244,6 @@
                 api: 'https:\/\/disqus.skk.moe\/disqus\/',
                 apikey: 'UldkcbX5DnWidbvKsKLe0RyNXjDdui55kN92hPUENe4UTA8b94THoQJRy17Ajqfb'
             };
-            console.log(config);
             var dsqjs = new DisqusJS(config);
             document.querySelector('span.post-comment-notloaded').setAttribute('style', 'display: none;');
         }
